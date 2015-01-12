@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/day_big_sunday"
+   tools:context=".MainActivity">
+
+
+    <TextView android:text="@string/hello_world"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_gravity="bottom"
+        />
+    <TextView android:text="hi hi hiiiiiiii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hello_world2"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello you all"
+        android:textSize="45dp"
+        android:textColor="#4f2971"
+        android:textScaleX="@integer/abc_max_action_buttons"
+
+        />
+
+
+</LinearLayout>
